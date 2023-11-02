@@ -1,0 +1,376 @@
+/*
+Theme Name: Mah Way...
+Theme URI: 
+Author: Team Mah Way...
+Author URI:
+Description: Made by the team Mah Way . This template can be used for downloadable, virtual and Kala product stores, and can also be used as a corporate template and resume.
+Tags: Resume , Store , Company , Mah Way...
+Version: 5.1
+Requires at least: 4
+Tested up to: 5.7.2
+Requires PHP: 7.0
+*/
+
+.comments_box {
+    width: 92%;
+    background-color: var(--coloe4);
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 10;
+}
+
+.comments_box img {
+    width: 65;
+    height: 65;
+    display: none;
+}
+
+.comments_box form p {
+    display: inline-block;
+    padding: 5;
+    margin: 0;
+}
+
+.comments_box form {
+    margin-bottom: 0;
+}
+
+.mycomments-body {
+    margin: 30px 0;
+}
+
+.comment-author {
+    margin-bottom: 10px;
+    color: #222;
+    display: inline-block;
+}
+
+.comments h3#comments {
+    font-size: 16px !important;
+    margin-bottom: 18px;
+}
+
+#comments h2.comments-title {
+    font-size: 16px !important;
+    margin-bottom: 18px;
+}
+
+#respond #reply-title {
+    font-size: 17px !important;
+}
+
+#respond #reply-title:before {
+    content: "\f0e5";
+    font-family: FontAwesome;
+    margin-left: 5px;
+    color: var(--coloe3);
+    ;
+}
+
+#respond p.comment-notes {
+    padding-right: 20px !important;
+    margin-bottom: 17px !important;
+    line-height: 2;
+    display: inherit;
+}
+
+#commentform label {
+    display: inline-block;
+    width: 15%;
+}
+
+#commentform input::placeholder, #commentform textarea::placeholder {
+    color: rgb(143, 141, 141);
+}
+
+#commentform textarea {
+    width: 100%;
+    resize: none;
+    background-color: var(--coloe4);
+    border: 1px solid var(--coloe3);
+    color: var(--coloe2);
+    padding: 8px;
+    border-radius: 4px;
+}
+
+#commentform textarea:focus {
+    outline: 0 !important;
+}
+
+#commentform input {
+    width: 100%;
+    height: 40px;
+    background-color: var(--coloe4);
+    border: 1px solid var(--coloe3);
+    color: var(--coloe2);
+    padding-right: 8px;
+    border-radius: 4px;
+}
+
+.comment-form-cookies-consent {
+    display: none;
+}
+
+#commentform input[type="submit"] {
+    width: auto;
+    height: 35px;
+    padding: 0 5px;
+    color: var(--coloe2);
+    background-color: var(--coloe3);
+    border-radius: 4px;
+    /* border: 1px solid #9be15d; */
+    font-size: 13px;
+    float: left;
+    margin-left: 15px;
+}
+
+#commentform input[type="submit"]:hover {
+    color: var(--coloe3);
+    ;
+    background-color: var(--coloe4);
+}
+
+.comment-meta {
+    padding-bottom: 10px;
+    display: inline-block;
+    float: left;
+}
+
+.comment-meta a {
+    color: var(--coloe3);
+    font-size: 13px;
+}
+
+.comment-body {
+    width: 100%;
+    background-color: var(--coloe1);
+    border-radius: 4px;
+    color: var(--coloe2);
+    margin: 5px 0;
+    padding: 12px;
+    border-right: 3px solid var(--coloe3);
+}
+
+h3#comments {
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+ul.children .comment-body {
+    border-right: 3px solid #d7e6f5 !important;
+}
+
+.comment-body p {
+    color: var(--coloe2);
+    font-size: 13px;
+    line-height: 2;
+    padding: 0px 10px;
+    margin: 5 0;
+}
+
+.comment-notes span {
+    width: 100% !important;
+}
+
+.comment-notes .required {
+    display: none !important;
+}
+
+.comment-reply-link {
+    padding: 6px;
+    margin: 8px 0;
+    color: rgb(8, 211, 238);
+    background-color: transparent;
+    border-radius: 2px;
+    width: 60px;
+    display: inline-block;
+    text-align: center;
+    height: 33px;
+    font-size: 15px;
+    border: 1px solid rgb(8, 211, 238);
+    display: none;
+}
+
+.avatar {
+    width: 55px;
+    height: 55px;
+    margin-left: 8px;
+    border-radius: 3px;
+}
+
+.comments-body #comments {
+    font-size: 20px;
+}
+
+.comments-body #comments:before {
+    content: "\f112";
+    font-family: FontAwesome;
+    margin-left: 5px;
+    color: #9be15d;
+    ;
+}
+
+.commentlist ul.children {
+    width: 98%;
+    margin-right: 2%;
+}
+
+.commentlist ul.children li {
+    padding: 0;
+}
+
+.comment-body cite.fn {
+    font-style: normal !important;
+    color: var(--coloe2);
+}
+
+.comment-body span.says {
+    display: none;
+}
+
+#nex-bac a, span {
+    padding: 3;
+}
+
+#nex-bac span {
+    color: var(--coloe3);
+}
+
+.screen-reader-text {
+    display: none;
+}
+
+.galery div {
+    width: 100px;
+    display: inline-block;
+    margin: 2px;
+}
+
+.cament {
+    background-color: var(--coloe4);
+    margin-top: 30px;
+    border-radius: 4px;
+    padding: 15px;
+}
+
+.cament label {
+    color: var(--coloe3);
+    padding: 3 0;
+}
+
+.cament p a {
+    color: var(--coloe3);
+}
+
+.woocommerce #review_form #respond .form-submit input {
+    right: auto;
+    color: var(--coloe2);
+    background-color: var(--coloe3);
+}
+
+.cament textarea {
+    background-color: var(--coloe1);
+    padding: 2 7;
+    border-radius: 4px;
+}
+
+.woocommerce #reviews #comments ol.commentlist li .comment-text {
+    margin: 0 50px 0 0;
+    border: none;
+    border-radius: 4px;
+    padding: 1em 1em 0;
+}
+
+.woocommerce #reviews #comments ol.commentlist li {
+    padding: 8;
+    margin: 0 0 20px;
+    border: 0;
+    position: relative;
+    background: 100%;
+    border: 0;
+    background-color: var(--coloe1);
+    border-right: 1px solid var(--coloe3);
+}
+
+.woocommerce #reviews #comments ol.commentlist li img.avatar {
+    float: right;
+    position: absolute;
+    top: 20%;
+    right: 0;
+    padding: 3px;
+    width: 50px;
+    height: auto;
+    background: #ebe9eb00;
+    border: 1px solid #e4e1e300;
+    margin: 0;
+    box-shadow: none;
+}
+
+#mahsol span {
+    display: flex;
+}
+
+#mahsol img {
+    width: 99%;
+}
+
+.slect-prod p {
+    display: none;
+}
+
+.filter-form select {
+    height: 36px;
+    border-radius: 4px !important;
+    background-color: var(--coloe2);
+    color: var(--coloe1);
+}
+
+.filter-form .div-serch input {
+    height: 36px;
+    background-color: transparent;
+    border: none;
+    color: var(--coloe1);
+}
+
+.filter-form .div-serch input :focus-visible {
+    outline: none !important;
+    border: none;
+}
+
+.div-serch {
+    display: inline-block;
+    background-color: var(--coloe2);
+    border-radius: 4px;
+    padding: 0 3px;
+}
+
+.filter-form form {
+    margin: 0 !important;
+}
+
+#wp-calendar {
+    width: 95%;
+    color: var(--coloe2);
+}
+
+#wp-calendar caption {
+   color: var(--coloe3);
+}
+
+#wpadminbar {
+    direction: rtl;
+    color: #c3c4c7;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    line-height: 2.46153846;
+    height: 32px;
+    position: fixed;
+    top: 0;
+    display: none;
+    right: 0;
+    width: 100%;
+    min-width: 600px;
+    z-index: 99999;
+    background: #1d2327;
+}
